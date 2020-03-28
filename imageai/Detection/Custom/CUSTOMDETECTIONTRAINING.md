@@ -3,7 +3,7 @@
 ---
 
 **ImageAI** provides the most simple and powerful approach to training custom object detection models
-using the YOLOv3 architeture, which
+using the YOLOv3 architecture, which
 which you can load into the `imageai.Detection.Custom.CustomObjectDetection` class. This allows
  you to train your own model on any set of images that corresponds to any type of objects of interest.
 The training process generates a JSON file that maps the objects names in your image dataset and the detection anchors, as well as creates lots of models. In choosing the best model for your custom object detection task, an `evaluateModel()` function has been provided to compute the **mAP** of your saved models by allowing you to state your desired **IoU** and **Non-maximum Suppression** values. Then you can perform custom
